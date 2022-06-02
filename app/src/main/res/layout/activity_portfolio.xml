@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/couleur_police1"
+    android:orientation="horizontal"
+    android:rotationY="0"
+    tools:context=".portfolio">
+
+    <TextView
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+
+        android:fontFamily="@font/hug"
+        android:text="Mon portfolio"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="20" />
+
+
+    <ScrollView
+        android:layout_width="284dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="213dp"
+                android:layout_height="176dp"
+                android:rotation="0"
+                app:srcCompat="@drawable/quies" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/hug"
+                android:text="Qui est-ce"
+                android:textColor="@color/fond3"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="L'application que j'ai presenté pendant mon examen de fin d'année. Les téchnologies utilisées: PHP orienté objet, MySQL JavaScript, Ajax." />
+
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="214dp"
+                android:layout_height="199dp"
+                app:srcCompat="@drawable/library" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/hug"
+                android:text="La bibliothèque en ligne"
+                android:textColor="@color/fond3"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La création de ce site m'a permis d'apprendre le CRUD. Il est accessible aux utilisateurs et administrateurs. J'ai implémenté la possibilité d'inscription et de modification des données personnelles. L’ administrateur peut gérer l’ajout et la suppression de catégories, de livres et d’auteurs. L' administrateur peut également vérifier si un livre a été rendu et rendre actif, inactif ou supprimer le compte d'un utilisateur." />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="214dp"
+                android:layout_height="229dp"
+                app:srcCompat="@drawable/chess" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/hug"
+                android:text="Le jeu d'echec"
+                android:textColor="@color/fond3"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Le projet a été réalisé en cours. Le but était d'apprendre l'orienté objet en programmation par le biais de PHP. Ce site permet de se connecter et de jouer pour les deux utilisateurs." />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="220dp"
+                android:layout_height="175dp"
+                app:srcCompat="@drawable/gsm" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/hug"
+                android:text="Site GSM chez SOLTI"
+                android:textColor="@color/fond3"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Site réalisé pendant le stage. Le but était de moderniser l'aspect de leur site." />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="216dp"
+                android:layout_height="368dp"
+                app:srcCompat="@drawable/c" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/hug"
+                android:text="Plateforme d'inscription"
+                android:textColor="@color/fond3"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Le projet que j'ai inventé pour apprendre C# et qui est en cours de création. Mon but est de créer une plateforme qui permettrait gérer l'aide aux Ukrainiens." />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="214dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/memoire" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/hug"
+                android:text="Le jeu de mémoire"
+                android:textColor="@color/fond3"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.447"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Un de mes premier projet. Je voulais m’entrainer pour mieux maitriser les conditions en JavaScript et apprendre à utiliser la bibliothèque jQuery." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
